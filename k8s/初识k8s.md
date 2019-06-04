@@ -19,29 +19,30 @@
 - controller manager    
    作为集群内部的管理控制中心，负责集群内的Node、Pod副本、服务端点（Endpoint）、命名空间（Namespace）、服务账号（ServiceAccount）、资源定额（ResourceQuota）的管理，当某个Node意外宕机时，Controller Manager会及时发现并执行
    自动化修复流程，确保集群始终处于预期的工作状态。它包含一系列controller.例如如下：
-   ```
-Replication Controller
-Node Controller
-CronJob Controller
-Daemon Controller
-Deployment Controller
-Endpoint Controller
-Garbage Collector
-Namespace Controller
-Job Controller
-Pod AutoScaler
-RelicaSet
-Service Controller
-ServiceAccount Controller
-StatefulSet Controller
-Volume Controller
-Resource quota Controller
-   ```
+
+
+
+    Replication Controller
+    Node Controller
+    CronJob Controller
+    Daemon Controller
+    Deployment Controller
+    Endpoint Controller
+    Garbage Collector
+    Namespace Controller
+    Job Controller
+    Pod AutoScaler
+    RelicaSet
+    Service Controller
+    ServiceAccount Controller
+    StatefulSet Controller
+    Volume Controller
+    Resource quota Controller
+
 
 - scheduler
 - kubelet
 - container runtime
 - kube-proxy
-
 
 ## Node 组要组件
