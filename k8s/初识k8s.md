@@ -21,7 +21,7 @@
    自动化修复流程，确保集群始终处于预期的工作状态。它包含一系列controller.例如如下：
 
 
-
+```
     Replication Controller
     Node Controller
     CronJob Controller
@@ -39,6 +39,7 @@
     Volume Controller
     Resource quota Controller
 
+```
 
 - scheduler
 - kubelet
